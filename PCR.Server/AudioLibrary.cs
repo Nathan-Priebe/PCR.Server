@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace PCRServer
+namespace PCR.Server
 {
     class AudioLibrary
     {

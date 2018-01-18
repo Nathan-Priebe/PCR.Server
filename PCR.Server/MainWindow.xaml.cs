@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Forms;
 using MessageBox = System.Windows.MessageBox;
 using NetFwTypeLib;
+using PCR.Server;
 
 namespace PCRServer
 {

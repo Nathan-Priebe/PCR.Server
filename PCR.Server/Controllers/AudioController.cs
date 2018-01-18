@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
-using PCR.Common.Models;
 using PCR.Server.Data;
 using PCR.Server.Models;
-using PCRServer;
 
 namespace PCR.Server.Controllers
 {

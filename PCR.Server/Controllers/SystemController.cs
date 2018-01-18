@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Http;
+﻿using System.Web.Http;
 using PCR.Server.Data;
-using PCRServer;
 
 namespace PCR.Server.Controllers
 {
@@ -17,7 +11,7 @@ namespace PCR.Server.Controllers
         [HttpPost]
         public void UpdateLog([FromBody]string error)
         {
-            PCRServer.Common.LogError(error);
+            Common.LogError(error);
         }
 
         [ExceptionFilter]
@@ -25,7 +19,7 @@ namespace PCR.Server.Controllers
         [HttpGet]
         public string Version()
         {
-            return PCRSystem.version();
+            return PcrSystem.version();
         }
 
     }

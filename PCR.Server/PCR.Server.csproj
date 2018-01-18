@@ -93,6 +93,7 @@
     <Compile Include="Data\Audio.cs" />
     <Compile Include="Data\PCRSystem.cs" />
     <Compile Include="ExceptionFilter.cs" />
+    <Compile Include="Models\Application.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Controllers\AudioController.cs" />
     <Page Include="MainWindow.xaml">
@@ -149,12 +150,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\PCR.Common\PCR.Common\PCR.Common.csproj">
-      <Project>{3831132b-cc80-4891-823e-5a15fbd9cdb3}</Project>
-      <Name>PCR.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon.ico" />

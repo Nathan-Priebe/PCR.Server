@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection;
 
 namespace PCR.Server.Data
 {
-    public class PCRSystem
+    public class PcrSystem
     {
         public static string version()
         {

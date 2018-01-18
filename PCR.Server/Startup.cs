@@ -1,7 +1,7 @@
 ﻿using Owin;
 using System.Web.Http;
 
-namespace PCRServer
+namespace PCR.Server
 {
     public class Startup
     {
